@@ -73,11 +73,8 @@ header article h1 span{
 }
 
 header .linie {
-
-   
     display: flex;
     justify-content: center;
-   
     position: absolute;
     top: 0;
     width: 100%;
@@ -88,7 +85,7 @@ header .linie img {
     height: 110px;
 }
 
-header .bear_btn{
+  .bear_btn{
     display: flex;
     justify-content: space-between;
     margin: 0 5%;
@@ -96,7 +93,7 @@ header .bear_btn{
 }
 
 header .bear_btn img{
-    margin-top: 1%;
+    margin-top: 3%;
 }
 
 .btn{
@@ -145,6 +142,7 @@ main .last_year h1{
 }
 .Info_Img p{
     margin-left: 6%;
+    color: white;
 }
 
 /* *Section 2 Stuck in the middle */
@@ -308,6 +306,7 @@ main .last_year h1{
     .Golden_Bear{
         background-color: black;
         color: white;
+        z-index: 2;
         
     }
 
@@ -326,16 +325,17 @@ main .last_year h1{
    
     .Golden_Bear article .wrapper h1{
         font-size: 3.6rem;
+      
     }
 
     .Golden_Bear article .wrapper p{
         font-size: 0.8rem;
         margin: 1%;
+        
+        
     }
-
-    .Golden_Bear article .wrapper {
-       
-    }
+   
+    
     
     .Golden_Bear article .wrapper .bear{
         width: 60%;
@@ -373,11 +373,11 @@ main .last_year h1{
     
     position: absolute; 
     top: 10%; 
-    right: 1%;
+    right: 10px;
     margin-top: 10%;
-    margin-right: 1%;
-    width: 30%;
-    height: 77%;
+    margin-right: 2%;
+    width: 25%;
+    height: 75%;
     z-index: 2;
 }
 
@@ -388,3 +388,152 @@ main .last_year h1{
     background-color: white;
     
 }
+
+.black-background {
+    background-color: black;
+    color: white;
+    z-index: 2;
+}
+
+.black-background h1 {
+    color: white;
+}
+
+.black-background p {
+    color: white;
+}
+
+
+/* *5 Section / teil 2 von Section 4 */
+
+.gray-background .Golden_Bear  .wrapper .bear .Big_Text {
+    
+    color: black;
+}
+
+.Golden_Bear article .wrapper p{
+    font-size: 0.8rem;
+    margin: 1%;
+   
+    
+}
+
+.gray-background {
+    z-index: 2;
+    background-color: #bab4b464;
+    color: black; 
+}
+.gray-background h1,p{
+    color: black; 
+}
+
+.gray-background .two_bear_img img:nth-of-type(1) {
+    position: absolute;
+    width: 49%;
+    height: 100%;
+    right: 24%;
+    z-index: 1;
+    margin-right: -20%;
+    margin-bottom: 100px;
+    z-index: 2;
+}
+
+.gray-background .two_bear_img img:nth-of-type(2) {
+    position: relative;
+    width: 30%;
+    height: 30%;
+    z-index: 2;
+    right: 10%;
+    margin-left: auto;
+    margin-right: 35%;
+    margin-bottom: 3%;
+}
+
+.gray-background h1 {
+    color: black;
+}
+
+.gray-background p {
+    color: black;
+}
+
+.two_bear_img{
+    margin-bottom: 20px;
+}
+
+
+/* !Footer */
+
+footer{
+   
+    background-color: black;
+    color: white;
+    position: relative;
+    overflow: hidden; 
+}
+footer article{
+    display:flex ;
+    flex-direction: column;
+}
+
+footer article p{
+    color: white;
+    margin: 5% 5% 1%;
+}
+
+footer article h3{
+    margin: 0 5%;
+    width: 25%;
+    line-height:35px;
+}
+
+.icon{
+    display: flex;
+    margin: 4% 5% 1%;
+    gap: 3px;
+}
+
+.icon img{
+    
+    width: 1%;
+}
+
+.Info_Project p{
+    color: white;
+    
+}
+
+.Info_footer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.Info_Project{
+    margin-left: 4.5%;
+    width: 100%;
+}
+
+.Sponsor img{
+    width: 15%;
+}
+
+/* Weise Linie  */
+
+    .footer_white_box {
+        position: absolute;
+        top: -3;
+        right: 0;
+        width: 800px; 
+        height: 100px; 
+        background-color: white;
+        transform: rotate(45deg); 
+        transform-origin: top right; 
+    }
+
+
+    @media (min-width: 1200px) {
+        .footer_white_box {
+            width: 1000px; 
+            height: 100px;
+        }
+    }
