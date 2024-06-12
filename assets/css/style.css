@@ -120,6 +120,7 @@ header .bear_btn img{
 
 
 /* *Section Last_Year */
+
 main .last_year{
     height: 100%;
     background-color: black;
@@ -225,10 +226,7 @@ main .last_year h1{
     margin: 150px 0px 0 20px;
 }
 
-
-
-
-    .Stuck_middle_2 article .left_img{
+.Stuck_middle_2 article .left_img{
         display: flex;
         flex-direction: column;
         margin-right: 2%;
@@ -303,5 +301,90 @@ main .last_year h1{
         
     .Stuck_middle_2{
         margin-top: -100px;
-        margin-bottom: -150px;
     }
+
+    /* * Section 3 Golden_Bear */
+
+    .Golden_Bear{
+        background-color: black;
+        color: white;
+        
+    }
+
+    .Golden_Bear article{
+       
+        display: flex;
+        flex-direction: column;
+    }
+
+    .Golden_Bear article .wrapper{
+        display: grid;
+        grid-template-columns: auto auto 1fr; 
+        justify-content: space-between; 
+        margin: 5% 10%;
+    }
+   
+    .Golden_Bear article .wrapper h1{
+        font-size: 3.6rem;
+    }
+
+    .Golden_Bear article .wrapper p{
+        font-size: 0.8rem;
+        margin: 1%;
+    }
+
+    .Golden_Bear article .wrapper {
+       
+    }
+    
+    .Golden_Bear article .wrapper .bear{
+        width: 60%;
+    }
+    .Golden_Bear article .wrapper .artist{
+        width: 60%;
+        margin-top: 15px;
+       margin-left: 20%;
+       padding: 2%;
+    }
+
+    .Golden_Bear article .wrapper .artist h3{
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+    .Golden_Bear article .two_bear_img{
+        position: relative; 
+        display: flex;
+        justify-content: center;
+        background-image: cover ;
+        margin-right: 20%;
+
+    }
+
+    .Golden_Bear article img:nth-of-type(1){
+        position: relative;
+        width: 55%;
+        height: 55%;
+        z-index: 1;
+        margin-bottom: -100px;
+        
+    }
+
+.Golden_Bear article img:nth-of-type(2){
+    
+    position: absolute; 
+    top: 10%; 
+    right: 1%;
+    margin-top: 10%;
+    margin-right: 1%;
+    width: 30%;
+    height: 77%;
+    z-index: 2;
+}
+
+.white_box{
+    
+    width: 100vw;
+    height: 300px;
+    background-color: white;
+    
+}
