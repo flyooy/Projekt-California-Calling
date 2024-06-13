@@ -127,7 +127,6 @@ header .bear_btn img{
 /* !Main */
 
 
-
 /* *Section Last_Year */
 
 main .last_year{
@@ -140,6 +139,7 @@ main .last_year h1{
     font-size: 4.3rem;
     margin: 0 5%;
 }
+
 .Img{
     margin-bottom: 6%;
 }
@@ -153,6 +153,7 @@ main .last_year h1{
     justify-content: space-between;
     margin: 5% 5% 0 5%;
 }
+
 .Info_Img .Info{
     margin: 3% 0;
 }
@@ -297,11 +298,10 @@ main .last_year h1{
         
     }
    
-    
-    
     .Golden_Bear article .wrapper .bear{
         width: 60%;
     }
+
     .Golden_Bear article .wrapper .artist{
         width: 60%;
         margin-top: 15px;
@@ -313,6 +313,7 @@ main .last_year h1{
         font-size: 1.5rem;
         margin-bottom: 20px;
     }
+
     .Golden_Bear article .two_bear_img{
         position: relative; 
         display: flex;
@@ -375,6 +376,7 @@ main .last_year h1{
 .Golden_Bear{
     overflow:hidden;
 }
+
 .black-background {
     background-color: black;
     color: white;
@@ -400,8 +402,6 @@ main .last_year h1{
 .Golden_Bear article .wrapper p{
     font-size: 0.8rem;
     margin: 1%;
-   
-    
 }
 
 .gray-background {
@@ -409,6 +409,7 @@ main .last_year h1{
     background-color: #bab4b464;
     color: black; 
 }
+
 .gray-background h1,p{
     color: black; 
 }
@@ -457,6 +458,7 @@ footer{
     position: relative;
     overflow: hidden; 
 }
+
 footer article{
     display:flex ;
     flex-direction: column;
@@ -503,7 +505,7 @@ footer article h3{
     width: 15%;
 }
 
-/* Weise Linie  */
+    /* Weise Linie  */
 
     .footer_white_box {
         position: absolute;
@@ -557,3 +559,153 @@ footer article h3{
             height: 100px;
         }
     }
+
+
+    /* * Fur Tableten */
+
+    @media only screen and (max-width: 768px){
+        header article h1{
+            font-size: 2rem;
+            width: 30%;
+            display: block;
+            text-align: center;
+        }
+
+        header {
+            height: 50vh;
+        }
+
+        main {
+
+            margin-top: 0;
+            padding-top: 0;
+        }
+
+       
+        main .last_year h1{
+            font-size: 3rem;
+            margin: 0 5%;
+
+        }
+
+        .stuck-middle div:nth-child(1) {
+            padding: 14vh 51px 54px 34px;
+        }
+
+        .Golden_Bear article .wrapper .artist h3{
+            font-size: 0.8rem;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .white_box{
+    
+            width: 100vw;
+            height: 150px;
+            
+        }
+
+        .white_box svg{
+            align-self: flex-start; 
+            width: 100%;
+            height: 100%;
+            margin-top: -8%;
+            margin-right: -50%;
+            animation: rotate 4s linear infinite; 
+        }
+
+        .stuck-middle h2 {
+            font-size: 2rem;
+          }
+
+          .footer_white_box {
+            width: 900px; 
+            height: 80px;
+            transform: rotate(55deg); 
+        }
+
+        footer article h3{
+            margin: 1% 5%;
+            width: 55%;
+            line-height:35px;
+        }
+
+        .scrolling_text .text_block {
+            
+            font-size: 4rem;
+           
+        }
+          }
+
+        /* * Fur Ьobile */
+
+        @media only screen and (max-width: 576px) {
+
+            header article h1{
+                font-size: 1.5rem;
+                width: 40%;
+                display: block;
+                text-align: center;
+            }
+            header article p{
+                font-size: 0.6rem;
+            }
+
+            main .last_year h1{
+                font-size: 1.9rem;
+                margin: 0 5%;
+    
+            }
+
+
+  .stuck-middle div:nth-child(1) {
+    padding: 15vh 0 0 10px;
+  }
+  .stuck-middle h2 {
+    
+    font-size: 2rem;
+  }
+  
+  .paragraph {
+    font-size: 0.7rem;
+    line-height: 0.8rem;
+    width: 95%;
+  }
+            .Golden_Bear article .wrapper .artist h3{
+                font-size: 0.7rem;
+                width: 30vw;
+                margin-top: 20px;
+                margin-bottom: 20px;
+            }
+
+            .Golden_Bear article .wrapper .artist p{
+                font-size: 0.4rem;
+                margin: -5%;
+            }
+
+            .Golden_Bear article img:nth-of-type(2){
+    
+                margin-top: 10%;
+                margin-right: 4%;
+                width: 20%;
+                height: 100%;
+                z-index: 2;
+            }
+
+
+            .white_box{
+                width: 100%;
+                height: 150px;
+                
+            }
+        
+              .footer_white_box {
+              display: none;
+            }
+
+            footer article h3{
+                font-size: 0.8rem;
+                margin: 1% 5%;
+                width: 80%;
+                line-height:20px;
+            }
+        }
